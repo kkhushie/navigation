@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: M PLUS 1 Code;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(52, 49, 49, 0.816);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+    height: 100px;
+}
+header img{
+    height: 200px;
+    position: absolute;
+    top: -9%;
+}
+header ul{
+    display: flex;
+    gap: 3rem;
+}
+header ul li{
+    list-style: none;
+}
+header i.fa-bars{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 10px;
+    margin-right: 30px;
+    /* border: 1px solid white; */
+    display: none;
+    cursor: pointer;
+}
+header .icons i{
+    /* border: 1px solid white; */
+    display: none;
+/}
+.icons{
+    display: flex;
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(220, 220, 220);
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 20px;
+   
+}
+header ul li a span:hover{
+    transform: rotate(20deg);
+}
+header ul li a span{
+    border: 2px solid rgb(140, 251, 80);
+    color: rgb(149, 255, 55);
+    /* background-color: rgb(251, 80, 80); */
+    border-radius: 3px;
+    padding: 0px 2px;
+    position: relative;
+    left: -16px;
+    /* background-image: url(redline.png); */
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 130px;
+    top: -5px;
+    
+}
+#future{
+
+    transform: rotate('-10deg');
+ -webkit-transform: rotate(-10deg);
+ display: inline-block;
+ transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ backdrop-filter: blur(1px);
+ font-family: Mochiy Pop One;
+ font-size: 16px;
+}
+#future:hover{
+    background-color: rgba(151, 243, 70, 0.351);
+}
+#toys:hover{
+    background-color: rgba(254, 119, 117, 0.399);
+}
+#business:hover{
+    background-color: rgba(181, 150, 255, 0.264);
+}
+#toys{
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: rotate('10deg');
+ -webkit-transform: rotate(10deg);
+ display: inline-block;
+ /* background-image: url(yelline.png); */
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 130px;
+    backdrop-filter: blur(1px);
+    /* filter: blur(1px); */
+}
+#business{
+    /* background-image: url(blueline.png); */
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 180px;
+    transform: rotate('-10deg');
+ -webkit-transform: rotate(-10deg);
+ display: inline-block;
+ transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ backdrop-filter: blur(1px);
+}
+
+header ul li:nth-child(4) span{
+    
+    border: 2px solid rgb(255, 108, 86);
+    color: rgb(255, 108, 88);
+    /* background-color: rgb(247, 240, 113); */
+    background-color: transparent;
+    font-size: 16px;
+    font-family: Mochiy Pop One;
+}
+header ul li:nth-child(5) span{
+    font-size: 16px;
+    border: 2px solid rgb(138, 99, 244);
+    color: rgb(129, 117, 255);
+    font-family: Mochiy Pop One;
+ }
+ header ul li:first-child a span{
+    border: none;
+    color: rgb(65, 255, 245);
+ }
+ /*
+header ul li:last-child a i{
+color: rgb(220, 241, 61);
+position: relative;
+right: -20px;
+}
+header ul li:last-child a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px groove gray;
+} */
+.content .content-box{
+    height: 50%;
+    width: 70%;
+    /* background-color: rgba(255, 255, 255, 0.064);
+    border: 1px solid white; */
+    position: absolute;
+    top: 20%;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+
+}

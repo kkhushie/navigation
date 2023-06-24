@@ -1,0 +1,53 @@
+@media only screen and (max-width:767px) {
+    header ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(128, 128, 128, 0.206);
+        transform: translate(-50%,-50%);
+        backdrop-filter: blur(3px);
+        display: none;
+        padding-top: 40%;
+        padding-left: 40%;
+        z-index: 999;
+    }
+    header ul li{
+        margin-bottom: 40px;
+        
+    }
+    header ul li a{
+        font-size: 23px;
+        z-index: 99999;
+    }
+    header img{
+        height: 150px;
+        position: relative;
+        top: -5px;
+    }
+    header i.fa-bars{
+      /* border: 1px solid white; */
+      font-size: 22px;
+        display: block;
+        z-index: 9999;
+    }
+    header .icons i.fa-x{
+      /* border: 1px solid white; */
+      font-size: 22px;
+        display: block;
+        z-index: 9999;
+        color: rgb(255, 0, 51);
+        position: absolute;
+        left: -9px;
+        display: none;
+       
+    }
+    div.icons{
+        position: relative;
+    }
+}
